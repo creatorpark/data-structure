@@ -5,11 +5,11 @@ import java.util.Stack;
 public class Graph {
 	private final int 				maxVertex = 20;
 	
-	private Vertex 				vertexList[];
+	private Vertex 					vertexList[];
 	private int  					adjMatrix[][];
 	
 	private int 					vertexCount;
-	private Stack<Integer> 	theStack;
+	private Stack<Integer> 			theStack;
 	
 
 	public Graph() {
